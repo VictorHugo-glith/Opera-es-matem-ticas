@@ -1,5 +1,10 @@
-     let numUm = Number(prompt("Me diga um número:")); //criar váriavel para saber o primeiro valor da subtração;
-        let numDois = Number(prompt("Agora me fale outro número:")); //criar uma segunda váriavel para sabero segundo número;
-        let resultado = numUm - numDois; //criar váriavel para realizar a operação matemática;
+let num1 = Number(prompt("insira o primeiro número"));
+let num2 = Number(prompt("insira o segundo número"));
 
-        alert("O resultado desse número é " + resultado + "."); //alertar o resultado da operação.
+let resultado = num1 - num2; //criar váriavel para realizar a operação matemática;
+let resultadoDivisao = num1 / num2;
+
+alert("O resultado desse número é " + resultado + "."); //alertar o resultado da operação.
+alert("o resultado de sua divisão é " + resultadoDivisao + "!");
+
+
